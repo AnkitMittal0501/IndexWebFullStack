@@ -1,0 +1,352 @@
+ body{
+    
+   background-image: url(hyd3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+     line-height: 1;
+     margin:0;
+    
+}
+h1{
+    
+    text-align: center;
+    color:red;
+    text-shadow: 2px 2px white;
+    
+}
+.colorText {
+    color:grey;
+}
+.textshadow{
+    text-align:center;
+    text-shadow:-2px -2px 5px white; 
+}
+.textshadow2{
+    background-color: beige;
+    color:rgb(0,14,255);
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+    padding:47px;
+}
+  
+#styling {
+    color:blue;
+    background-color: white;
+      border:5px solid grey; 
+}
+.horizontalview li{
+    
+     display: inline;
+   padding:14px;
+    min-height:16px;
+    text-align: center;
+     width:100%;
+    margin:0; 
+   
+}
+.textshadow3{
+    background-color: beige;
+    color:rgb(0,14,255);
+    text-shadow: 1px 1px white;
+    text-align: center;
+    padding:95px;
+}
+
+.header {
+     
+   
+     text-align: right;
+   
+}
+
+.container{
+     background:linear-gradient(to right, red , yellow);
+/*
+    padding: 20px;    
+   
+*/
+}
+ul li{
+    
+    color: green;
+    font-size: 20px;
+}
+ul > li{
+    color: red;
+    
+}
+ 
+ 
+  .parent h2{
+    color:blue;
+}
+ 
+
+#another h2{
+      color:yellow;
+}
+.widget{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+   
+    font-size: 50px;
+}
+.borderImg {
+/*
+   
+    padding:10px;
+*/
+    border-radius: 10px;
+    border:5px solid grey; 
+    width:200px;
+    height:200px;
+    padding:5px;
+    max-width: 100%;
+    height:auto;
+   margin:auto; 
+       display:block;
+}
+
+
+html body div.g   rouping h1 #work{
+    color:yellow;
+}
+[id="work"]{
+    color: grey;
+    
+}
+.grouping h3{
+    color:red;
+
+}
+div h3{
+    color:green;
+    text-shadow:-2px -2px  pink;
+}
+
+
+h1,h3,h4,p{
+    color:blue;
+    text-shadow:-2px -2px  white;
+    line-height: 1rem;
+    font-style: italic;
+   
+}
+
+
+ul li{
+    color:green;
+}
+ul > li{
+    color:red;
+}
+div.parent>h2{
+    color:purple;
+}
+div h2{
+    color:blue;
+}
+
+h3{
+    color:green !important;
+    text-shadow:-2px -2px  pink; 
+}
+.header h2{
+    color:black;
+}
+html{
+    font-family:'Charm',sans-serif,serif;
+}
+/*
+html{
+    font-family:'Lato';
+}
+*/
+/*
+html{
+    font-family:'Noto+Sans';
+}
+*/
+/*
+html{
+    font-family:'Oswald';
+}
+*/
+
+
+
+/*
+h2{
+    font-size: 30px;
+    font-style: normal;
+}
+*/
+
+a{
+    
+    text-decoration:none;
+    font-size: 20px;
+    color:grey;
+/*    letter-spacing: 5px;*/
+    word-spacing: 5px;
+    text-transform: uppercase;
+}
+.formatting{
+    
+    font-size:25px;
+    line-height: 2em;
+    color:blue;
+}
+
+button{
+    color:white;
+    background-color: red;
+    border-radius: 12px;
+    border:none;
+    font-size:25px;
+    padding:10px 20px 40px 60px ;
+}
+
+.row{
+ display:flex;
+width:100%;    
+    
+}
+.row::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}   
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+* { 
+    box-sizing:border-box;
+}
+
+[class*="col-"]{
+    border:2px solid red;
+    padding:15px;
+    float: left;
+}
+
+/*Defaults*/
+
+nav,header,footer {
+    display:block;
+    
+    
+}
+/*################## Nav Bar #####################*/
+nav{
+    width:100%;
+    margin:0;    
+}
+ 
+nav ul{
+    
+    overflow:hidden;
+    margin:0;
+    padding:0;
+}
+ 
+
+ 
+    
+
+ ul.topnav  li{
+    list-style: none;
+     float:right;
+  }
+/*
+ul.topnav  l1{
+    list-style: none;
+    float:right;
+}
+*/
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height:16px;
+    text-align: center;
+    padding:10px;
+    text-transform:uppercase;
+    color:darkgrey;
+}
+ul.topnav li a:hover, ul.horizontalview li a:hover{
+    background-color: #0080ff;
+    color:#fff;
+    
+}
+ul.topnav li.dropdown-icon{
+    display:none;
+}
+
+
+/*################### Mobile #####################*/
+
+@media screen and (max-width:1024px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdown-icon{
+        display:block;
+       float:right;
+        
+    }
+    ul.topnav.responsive li.dropdown-icon{
+        position: absolute;
+        top: 0;
+        right:0;
+        
+    }
+    ul.topnav.responsive{
+        
+        position: relative;
+    }
+    ul.topnav.responsive li{
+        display:inline;
+        float:none;
+    }
+    ul.topnav.responsive li a{
+        display:block;
+        text-align:left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+px''

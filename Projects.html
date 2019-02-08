@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Charm|Lato:100|Noto+Sans" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <title>
+    
+    Projects Page
+    </title>
+    
+    </head>
+<body>
+<div class="container">
+          <a href="FirstHello.html">        <img src="logo-sample-text_355-558.jpg" width="50px" height="50px"></a>
+
+         <nav>
+            <ul class="topnav" id="dropdownClick">
+            <li><a href="Index.html">  Home </a> </li>
+                <li> <a href="About.html"> About </a></li>
+                  <li><a href="Projects.html"> Projects</a></li>
+                <li><a href="websiteCSS.html">Team </a></li>
+                <li> <a href="ContactUs.html">  Contact </a></li>
+                 <li class="topnav-right" ><a href="#signup">Sign Up </a></li>
+                <li class="topnav-right"> <a href="#login">  Login </a></li>
+                <li class="dropdown-icon"><a  href="javascript:void(0);" onClick="dropdownMenu()">&#9776;</a></li>
+             
+            </ul>
+            </nav>
+</div>
+
+    <a href="#" >Click Me Now</a>
+    <br>
+    <div class="row">    <div class="col-3">
+    <img src="download.jfif" class="borderImg">
+     </div>
+    <div class="col-6">       <img src="download.jfif" class="borderImg">
+  
+      </div>
+     <div class="col-3">       <img src="download.jfif" class="borderImg">
+  
+      </div>
+        </div>
+             <div class="row">    <div class="col-2">
+    <img src="download.jfif" class="borderImg">
+     </div>
+    <div class="col-7">       <img src="download.jfif" class="borderImg">
+  
+      </div>
+     <div class="col-4">       <img src="download.jfif" class="borderImg">
+  
+      </div>
+        </div>
+
+
+<!--
+  <div>
+        <button type="button" class="padding">I am the button</button>
+        
+        </div>
+--><div class="header">
+      <h2>
+         Contact US
+        </h2>
+        <form >
+            Name:  
+            <input type="text"/><br><br>
+            Email:  
+            <input type="email"/><br><br>
+           
+            <input type="submit"/>
+            </form>
+            </div>
+    
+    
+    <script>
+    function dropdownMenu(){
+    var x = document.getElementById("dropdownClick");
+        if(x.className === "topnav"){
+            x.className +=" responsive";
+            /* change topnav to topnav.responsive*/
+        }
+        else{
+            x.classname ="topnav";
+        }
+    
+    }
+        
+    
+    
+    
+    
+    </script>
+    
+    
+    
+    </body>
+
+</html>

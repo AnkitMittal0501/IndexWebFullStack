@@ -1,0 +1,70 @@
+.horizontalview li{
+    
+     display: inline;
+    padding:50px;
+   
+}
+.header {
+     
+    
+     text-align: right;
+   
+}
+.textshadow{
+    text-align:center;
+    text-shadow:-2px -2px 5px white; 
+}
+body{
+    background-image: url(hyd3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*
+    background-color:#B3B6B7;
+    margin:auto;
+*/
+}
+.container{
+     background:linear-gradient(to right, red , yellow);
+    padding: 15px;    
+
+}
+
+.frame{
+    align-content: center;
+}
+.textshadow2{
+    background-color: beige;
+       color:rgb(0,14,255);
+    text-shadow: 1px 1px white;
+    text-align: center;
+    padding:47px;
+}
+.textshadow3{
+    background-color: beige;
+       color:rgb(0,14,255);
+    text-shadow: 1px 1px white;
+    text-align: center;
+    padding:107px;
+}
+.borderImg td{
+    border:5px solid grey; 
+    padding:10px;
+      
+
+}
+.parent {
+  width: 100%;
+  text-align: center;
+}
+
+.child {
+  width: 300px;
+  height: 200px;
+}
+.widget{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    font-family: fantasy;
+    font-size: 50px;
+}
